@@ -1,27 +1,74 @@
-# FirestoreA
+# Подключение `Firestore` в `Angular 13`
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.0.
+Пример подключения БД `Firestore`.
 
-## Development server
+Будущий результат: […здесь](https://a374ru-test.web.app)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+    :::: Необходимые знания :::::
+    1. Установка nodejs
+    2. Установка Angular
+    3. Владение nerminal
+    4. Владение редактором кода
 
-## Code scaffolding
+## Создаем Аккаунт в `Google` и заходим на `Firebase`.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Читаем доки `Firebase`.
+1. Создаем проект в `Firebase`.
+1. Создаем приложение и хостинг в проекте.
+1. Создаем базу `firestore` и заполняем тестовыми данными.
+1. В настройках получаем данные `(`config`)` для локального подключения `FireBase`.
 
-## Build
+## Устанавливаем `Firebase CLI`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<span style="color: #2C87BF;">Читай о `SDK или CLI` в справке Firebase.
 
-## Running unit tests
+## Устанавливаем Ангуляр
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Создаем директорию и разворачиваем проект Ангуляр. Заходим **в терминал** по адресу этой директории.
 
-## Running end-to-end tests
+## Запускаем из папки проект `Firebase`
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+<span style="color: #e34234;">Здесь важно!!! До установки пакета `@angular/fire` обязатеьльно нужно пройти идентификацию (логин) и выбрать настройки проекта `firebase` на втором шаге.
 
-## Further help
+1. Логинимся в Firebase командой `CLI` –
+   ```sh
+   $ friebase login
+   ```
+2. Инициализируем Firebase в нашей директории командой
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+   ```sh
+   $ firebase init
+   ```
+
+   и выбираем в предлагаемом меню установщика в терминале три пункта:
+
+   1. **Firestore**
+   2. **Hosting**
+   3. **Emulators** (локальная среда тестирования приложения), позже пригодится
+
+<br>
+
+## Устанавливаем пакет `Angularfire`
+
+[… о пакете здесь …](<[https://link](https://github.com/angular/angularfire)>)
+
+В предложенных настройках выбираем `firestore`.
+
+<span style="color: #e34234;">Обратите внимание! </span><br /> **`Angularfire`** сам заполнит файл `environment.ts` и добавит нужные импорты и зависимости.
+
+<hr>
+
+## <span style="color: #8F7161;">Подключение приложения (конфигурация) Ангуляр к `firestore` вручную:
+
+Заходим в настройки сервиса `Firebase`. Далее ищем настройки проекта. Настройки SDK. Переносим настройки в файл нашего проета `src/environments/environment.ts` в Ангуляр.
+
+<span style="color: #2C87BF;">Далее вы можете собрать проект и отправить его на хостинг `Firebase`.
+
+<br>
+
+Просмотреть пример данного проекта можно […здесь](https://a374ru-test.web.app)
+
+<hr>
+<br>
+
+![img](https://1.bp.blogspot.com/-hOxN5KX2KfY/YPplNP_w6xI/AAAAAAAAGz0/nNxSLwD5lnQhvFnce_DzmIoSRWyY9A3QACLcBGAsYHQ/s800/theend-beats.png)
