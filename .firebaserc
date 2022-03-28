@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "a374ru-test": {
+      "hosting": {
+        "firestore-a": [
+          "a374ru-test"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "a374ru-test"
+  }
+}

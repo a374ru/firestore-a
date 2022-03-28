@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+$bg-a374: #faf5f5;
+$blue-a374: #2C87BF;
+$green-a374: #7C9655;
+$orange-a374: #F29849;
+$red-a374: #E34234;
+$braun-a374: #8F7161;
+
+body {
+  background-color: $bg-a374;
+  background-image: url('./assets/bg.svg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: bottom;
+  color: $orange-a374;
+}
+
+.red {
+  color: $red-a374;
+  font-size: 2em;
+}
+
+h1 {
+  color: $braun-a374;
+}
+
+
+
+
+
+
+
+// background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23caccc0' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%2383a1aa' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23c3c5b4' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%237c9e9f' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23bcbea8' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23789993' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23b5b89b' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23799486' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23afb18f' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%237c8f7a' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23a9aa83' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%2381886f' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
