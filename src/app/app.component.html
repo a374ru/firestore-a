@@ -1,16 +1,23 @@
 <section>
-  <h1>Получение данных из базы <b>Firestore</b>…</h1>
+  <h1 class="a">Получение данных из базы <b>Firestore</b>…</h1>
 
   <!-- Здесь важен `async`, так как `dataFromBase` наблюдаемый объект и данные подгружаются с задержкой. -->
-  <div class="text" *ngFor="let item of dataFromBase | async">
+  <main class="b">
 
-    <p class="connect">Три записи из БД представлены ниже …
+    <div class="text " *ngFor="let item of dataFromBase | async">
 
-    <h2>{{ item.name }}</h2>
+      <p class="connect">Три записи из БД представлены ниже …
 
-    {{ item.description }}
+      <h2>{{ item.name }}</h2>
 
-    <!-- Здесь парсинг даты полученной с базы -->
-    <p class="date">Запись от: {{item.datecreate.seconds*1000 | date: "fullDate"}}</p>
-  </div>
+      {{ item.description }}
+
+      <!-- Здесь парсинг даты полученной с базы -->
+      <p class="date">Запись от: {{item.datecreate.seconds*1000 | date: "fullDate"}}</p>
+    </div>
+  </main>
+  <div class="probel"></div>
 </section>
+<footer class="f">
+  YS©TM
+</footer>

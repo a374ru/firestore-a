@@ -1,17 +1,28 @@
-$bg-a374: #faf5f5;
+$bg-a374: #fff9f9;
 $blue-a374: #2C87BF;
 $green-a374: #7C9655;
 $orange-a374: #F29849;
 $red-a374: #E34234;
 $braun-a374: #8F7161;
 
+app-root {
+  height: 0px;
+}
+
+html {
+  background-color: #e6d1b9;
+}
+
 body {
+
+  margin: 0;
   background-color: $bg-a374;
   background-image: url('./assets/bg.svg');
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-size: cover;
-  background-position: bottom;
+  background-position: bottom right;
   color: $orange-a374;
+
 }
 
 .red {
@@ -23,6 +34,12 @@ h1 {
   color: $braun-a374;
 }
 
+@media screen and (max-width: 425px) {
+
+  body {
+    background-image: none;
+  }
+}
 
 
 

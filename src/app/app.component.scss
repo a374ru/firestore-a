@@ -4,9 +4,22 @@
   color: #cccccc99;
 }
 
-section {
+// :host {}
 
-  padding: 2em 2em;
+section {
+  display: grid;
+  grid-template: auto auto 11rem 1fr / auto auto auto;
+  // grid-template-rows: auto 1fr auto auto;
+  grid-template-columns: 0.1fr 1fr 0.1fr;
+  grid-template-areas:
+    ". a ."
+    ". b ."
+    ". . ."
+    // "f f f"
+}
+
+main {
+  grid-area: b;
 }
 
 .text {
@@ -16,9 +29,36 @@ section {
 }
 
 h1 {
+  grid-area: a;
   font-size: 3em;
 }
 
 .date {
   color: $blue-a374;
+}
+
+.probel {
+  grid-area: p;
+}
+
+.f {
+  display: grid;
+  align-content: center;
+  grid-area: f;
+  height: 100px;
+  background-color: #fce5cc55;
+  color: rgb(79, 61, 24);
+  text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+
+  body {
+    background-image: none;
+  }
+
+  .text {
+    padding-left: 0px;
+  }
+
 }
