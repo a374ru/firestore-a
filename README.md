@@ -50,7 +50,7 @@
 
 ## Устанавливаем пакет `Angularfire`
 
-[… о пакете здесь …](<[https://link](https://github.com/angular/angularfire)>)
+[о пакете здесь…](https://github.com/angular/angularfire)
 
 В предложенных настройках выбираем `firestore`.
 
