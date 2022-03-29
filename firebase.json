@@ -1,7 +1,7 @@
 {
   "hosting": {
     "target": "firestore-a",
-    "public": "docs/site",
+    "public": "docs/public",
     "ignore": [
       "**/.*"
     ],
