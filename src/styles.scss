@@ -1,4 +1,4 @@
-$bg-a374: #fff9f9;
+$bg-a374: #fffbfb;
 $blue-a374: #2C87BF;
 $green-a374: #7C9655;
 $orange-a374: #F29849;
@@ -10,7 +10,7 @@ app-root {
 }
 
 html {
-  background-color: #e0cbb4;
+  background-color: #ffffff;
 }
 
 body {
@@ -20,8 +20,8 @@ body {
   background-image: url('./assets/bg.svg');
   background-attachment: scroll;
   background-size: cover;
-  background-position: bottom right;
-  color: $orange-a374;
+  background-position: bottom center;
+  color: #08173fc4;
 
 }
 
