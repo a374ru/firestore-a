@@ -1,8 +1,14 @@
+---
+<style>
+body{font-size:1.4em;}
+</style>
+---
+
 # Подключение `Firestore` в `Angular 13`
 
 Пример подключения БД `Firestore`.
 
-Будущий результат: […здесь](https://a374ru-test.web.app) или [здесь…](https://a374ru.github.io/firestore-a)
+Будущий результат: […здесь](https://a374ru-test.web.app) или [здесь…](https://a374ru.github.io/firestore-a/site)
 
     :::: Необходимые знания :::::
     1. Установка nodejs
