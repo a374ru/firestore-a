@@ -17,7 +17,6 @@ export class AppComponent implements OnInit {
    *  поэтому `any`.
    */
   dataFromBase: Observable<any[]>;
-  sos?: string;
 
   constructor(firestore: AngularFirestore) {
     /**
