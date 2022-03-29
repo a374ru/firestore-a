@@ -34,12 +34,30 @@ h1 {
   color: $braun-a374;
 }
 
+a:link,
+a:visited {
+  color: $red-a374;
+  text-decoration: none;
+}
+
+button {
+  color: $blue-a374;
+  text-decoration: none;
+  background-color: #fff9f9;
+  transform: rotate(-7deg);
+  box-shadow: 0px 3px 44px #f1cbcb;
+  border-radius: 7px;
+  border-color: #ebebeb;
+  margin-top: 3em;
+}
+
 @media screen and (max-width: 425px) {
 
   body {
     background-image: none;
   }
 }
+
 
 
 

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 5.74 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="464.342" cy="262.314" r="18.063" id="gradient-0">
+      <stop offset="0" style="stop-color: rgba(201, 201, 201, 1)"/>
+      <stop offset="1" style="stop-color: rgba(150, 150, 150, 1)"/>
+    </radialGradient>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="479.964" cy="268.178" r="14.393" id="gradient-1" gradientTransform="matrix(0.999195, 0, -0.013536, 1.000806, 7.563408, 1.699765)">
+      <stop offset="0" style="stop-color: rgba(201, 201, 201, 1)"/>
+      <stop offset="1" style="stop-color: rgba(150, 150, 150, 1)"/>
+    </radialGradient>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="472.429" cy="258.131" r="14.667" id="gradient-2">
+      <stop offset="0" style="stop-color: rgba(201, 201, 201, 1)"/>
+      <stop offset="1" style="stop-color: rgba(150, 150, 150, 1)"/>
+    </radialGradient>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="443.89" cy="374.265" r="87.069" id="gradient-4" gradientTransform="matrix(1, 0, 0, 1.000001, 0.000007, 0.000005)">
+      <stop offset="0" style="stop-color: rgba(201, 201, 201, 1)"/>
+      <stop offset="1" style="stop-color: rgba(150, 150, 150, 1)"/>
+    </radialGradient>
+    <filter id="inner-shadow-filter-0" x="-500%" y="-500%" width="1000%" height="1000%" bx:preset="inner-shadow 1 0 0 10 0.5 rgba(0,0,0,0.7)">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur stdDeviation="10"/>
+      <feComposite operator="out" in="SourceGraphic"/>
+      <feComponentTransfer result="choke">
+        <feFuncA type="linear" slope="1"/>
+      </feComponentTransfer>
+      <feFlood flood-color="rgba(0,0,0,0.7)" result="color"/>
+      <feComposite operator="in" in="color" in2="choke" result="shadow"/>
+      <feComposite operator="over" in="shadow" in2="SourceGraphic"/>
+    </filter>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="463.111" cy="258.122" r="6.26" id="gradient-5">
+      <stop offset="0" style="stop-color: rgba(201, 201, 201, 1)"/>
+      <stop offset="1" style="stop-color: rgba(150, 150, 150, 1)"/>
+    </radialGradient>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="457.267" cy="260.211" r="2.238" id="gradient-6">
+      <stop offset="0" style="stop-color: rgba(201, 201, 201, 1)"/>
+      <stop offset="1" style="stop-color: rgba(150, 150, 150, 1)"/>
+    </radialGradient>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="459.28" cy="260.571" r="3.152" id="gradient-7">
+      <stop offset="0" style="stop-color: rgba(201, 201, 201, 1)"/>
+      <stop offset="1" style="stop-color: rgba(150, 150, 150, 1)"/>
+    </radialGradient>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="265.339" cy="392.375" r="40.437" id="gradient-8">
+      <stop offset="0" style="stop-color: rgba(201, 201, 201, 1)"/>
+      <stop offset="1" style="stop-color: rgba(150, 150, 150, 1)"/>
+    </radialGradient>
+    <filter id="brightness-filter-0" x="-500%" y="-500%" width="1000%" height="1000%" bx:preset="brightness 1 1.39">
+      <feComponentTransfer>
+        <feFuncR type="linear" slope="1.39"/>
+        <feFuncG type="linear" slope="1.39"/>
+        <feFuncB type="linear" slope="1.39"/>
+      </feComponentTransfer>
+    </filter>
+    <path id="path-0" d="M 239.111 418.971 C 288.043 379.289 317.177 387.436 332.828 390.72" style="fill: none;"/>
+    <style bx:fonts="Actor">@import url(https://fonts.googleapis.com/css2?family=Actor%3Aital%2Cwght%400%2C400&amp;display=swap);</style>
+  </defs>
+  <g transform="matrix(0.796197, 0.099912, -0.209092, 0.760545, 164.992447, 119.658661)" style="">
+    <path style="fill-rule: evenodd; paint-order: stroke; fill: rgb(255, 255, 255); vector-effect: non-scaling-stroke; stroke-miterlimit: 9; stroke-width: 2px; stroke: url(#gradient-0);" d="M 467.137 243.768 C 459.68 244.114 452.202 244.441 448.578 250.564 C 444.425 257.58 446.776 259.377 448.806 264.418 C 451.139 270.212 460.702 281.249 460.857 280.85 C 463.433 274.237 458.319 271.886 466.839 268.881 C 471.193 267.345 471.872 269.374 482.405 266.073" transform="matrix(1.005523, 0.23928, -0.244127, 0.936414, 62.104955, -93.366016)"/>
+    <path style="stroke-width: 2px; fill: rgb(221, 221, 221); stroke-linecap: round; stroke-miterlimit: 3; stroke: url(#gradient-1);" d="M 469.425 248.228 L 497.597 291.959" transform="matrix(1.004121, 0.259104, -0.250347, 0.931296, 65.624268, -106.72317)"/>
+    <path style="paint-order: stroke; stroke-width: 0px; stroke-opacity: 0.76; fill-rule: evenodd; fill: rgb(148, 135, 250); stroke: url(#gradient-2);" d="M 457.795 248.368 C 481.407 255.651 471.526 263.892 477.247 270.913 C 478.01 271.849 482.319 268.663 487.049 268.661 C 488.02 268.661 473.827 248.769 471.07 245.406 C 470.197 244.341 457.023 247.265 457.795 248.368 Z" transform="matrix(1.001124, 0.275401, -0.28098, 0.921582, 72.07762, -109.843209)"/>
+    <path style="fill-rule: nonzero; stroke-opacity: 0.31; stroke-width: 0px; paint-order: fill; filter: url(#inner-shadow-filter-0); stroke: url(#gradient-4); fill: rgba(255, 232, 204, 0.97);" d="M 529.261 445.694 L 393.544 448.812 C 393.544 448.812 412.953 395.537 414.551 394.45 C 418.62 391.68 447.762 386.285 453.691 381.227 C 455.134 379.994 462.926 363.384 467.859 357.498 C 470.07 354.855 466.058 349.69 465.991 348.384 C 465.71 343.006 472.192 319.501 475.83 318.29 C 481.622 316.365 474.056 312.629 475.177 310.561 C 478.31 304.766 494.502 299.995 505.283 298.379 C 506.186 298.242 529.261 445.694 529.261 445.694 Z" transform="matrix(0.980098, -0.104645, 0.101108, 1.00951, -28.117648, 43.028706)" bx:origin="0.503 0.443"/>
+    <path style="fill: rgb(255, 255, 255); stroke-width: 1.21953px; stroke: url(#gradient-5);" d="M 469.371 261.377 C 469.121 261.639 461.854 258.706 461.979 258.456 C 463.217 255.974 464.9 252.852 462.637 251.557 C 461.721 251.032 460.734 251.268 459.853 251.434 C 459.845 251.436 456.85 252.019 456.85 252.578 C 457.975 257.186 460.888 261.259 463.133 265.009"/>
+    <path style="fill: rgb(255, 255, 255); stroke-width: 1.21953px; stroke: url(#gradient-6);" d="M 456.783 252.929 C 452.589 255.182 457.135 259.534 457.871 263.975 C 458.122 265.495 458.691 266.244 459.505 267.492"/>
+    <path style="fill: rgb(255, 255, 255); stroke-width: 1.21953px; stroke: url(#gradient-7);" d="M 456.127 262.542 C 456.346 261.667 459.824 258.427 459.654 259.359 C 459.467 260.386 461.361 258.358 462.432 258.624"/>
+  </g>
+  <text style="fill: rgb(222, 222, 222); font-family: Actor; font-size: 28px; letter-spacing: 0.4px; stroke: url(#gradient-8); word-spacing: -10.9px; white-space: pre; filter: url(#brightness-filter-0); opacity: 0.36;" transform="matrix(0.294211, 0, 0, 0.224224, 409.99057, 312.92749)"><textPath startOffset="2" xlink:href="#path-0">YSTM </textPath></text>
+</svg>
