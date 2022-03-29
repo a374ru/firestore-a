@@ -2,7 +2,8 @@
 
 Пример подключения БД `Firestore`.
 
-Будущий результат: […здесь](https://a374ru-test.web.app) или [здесь…](https://a374ru.github.io/firestore-a/public)
+Будущий результат:
+[здесь…](https://a374ru.github.io/firestore-a/public)
 
     :::: Необходимые знания :::::
     1. Установка nodejs
@@ -71,7 +72,7 @@ firebase deploy
 
 <br>
 
-Просмотреть пример данного проекта можно […здесь](https://a374ru-test.web.app)
+Просмотреть пример данного проекта размещенного на хостинге `Firebase` можно […здесь](https://a374ru-test.web.app)
 
 <hr>
 <br>
