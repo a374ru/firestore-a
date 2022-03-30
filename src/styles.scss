@@ -9,18 +9,15 @@ app-root {
   height: 0px;
 }
 
-html {
-  background-color: #ffffff;
-}
-
 body {
-  height: 100vh;
+  height: clamp(400px, 100vh, 4000px);
   margin: 0;
   background-color: $bg-a374;
   background-image: url('./assets/bg.svg');
-  background-attachment: scroll;
+  // background-attachment: scroll;
   background-size: cover;
-  background-position: bottom center;
+  background-position: bottom left;
+  background-repeat: no-repeat;
   color: #08173fc4;
 
 }
@@ -49,8 +46,14 @@ a:visited {
   }
 }
 
+@media screen and (max-width: 960px) and (orientation:landscape) {
+  body {
+    background-image: none;
 
+    // background-size: none;
 
+  }
+}
 
 
 
